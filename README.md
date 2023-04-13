@@ -16,7 +16,7 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -34,8 +34,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
->  Built with PostgreSQL.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -47,7 +45,7 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Read Morse code]**
+- **[Read Morse code message]**
 - **[Decode Morse code into plain text]**
 
 
@@ -79,19 +77,13 @@ Clone this repository to your desired folder:
 
   $ cd decode-morse-code
 ```
-### Install
 
-Install this project with:
-
-```sh
-  npm install
-```
 ### Usage
 
 To run the project, execute the following command:
 
 ```sh
-  npm start
+  ruby .\morsecode.rb
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
