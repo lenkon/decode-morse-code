@@ -1,4 +1,4 @@
-def decode_letter(encrypted_char)
+﻿def decode_letter(encrypted_char)
   code_char_map = {
     '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D',
     '.' => 'E', '..-.' => 'F', '--.' => 'G', '....' => 'H',
